@@ -514,7 +514,7 @@ class KoboClaraHDReaderOutput(OutputProfile):
     description = _('This profile is intended for the Kobo Clara HD Reader.')
 
     screen_size               = (1072, 1448)
-    comic_screen_size         = (1072, 1448)
+    comic_screen_size         = screen_size
 
     
 class KoboAuraH20v2ReaderOutput(OutputProfile):
@@ -524,8 +524,8 @@ class KoboAuraH20v2ReaderOutput(OutputProfile):
 
     description = _('This profile is intended for the Kobo Aura H20 v2 Reader.')
 
-    screen_size               = (1430, 1080)
-    comic_screen_size         = (1430, 1080)
+    screen_size               = (1080, 1430)
+    comic_screen_size         = screen_size
     
 
 class SonyReader300Output(SonyReaderOutput):
